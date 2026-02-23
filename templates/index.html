@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="3">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if img %}
+        <img src="{{ url_for('static', filename='uploads/' + img) }}" alt="zdjecie z drona">
+    {% else %}
+        <p>Czekam na pierwsze zdjęcie...</p>
+    {% endif %}
+    <p>{{msg}}</p>
+    
+</body>
+</html>
