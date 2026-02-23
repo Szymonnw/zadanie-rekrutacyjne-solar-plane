@@ -5,7 +5,7 @@ System transmisji obrazu i tekstu z  symulowanego drona w czasie rzeczywistym (P
 Prosty system do odbierania danych z drona.
 Dron (klient) wysyła zdjęcie i komunikat, a serwer (stacja naziemna) pokazuje to na stronie WWW, która sama się odświeża.
 
-## 🛠️ Jak to działa?
+## Jak to działa?
 
 1. **Dron (skrypt `dron_klient.py`):**
    * Bierze zdjęcia z folderu `zdjecia_z_drona`.
